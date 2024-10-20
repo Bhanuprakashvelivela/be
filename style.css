@@ -502,6 +502,9 @@ body.light .header {
 
 .header-image {
   float: right;
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
 }
 
 .header-text {
@@ -573,7 +576,7 @@ body.light .header {
   top: 0;
   max-block-size: 60px;
   max-inline-size: 150px;
-  transition: all 2.4s cubic-bezier(0.25, 1, 0.5, 1);
+  transition: all 2s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 @media (max-width: 845px) {
