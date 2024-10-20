@@ -120,12 +120,63 @@ textarea {
   resize: none;
 }
 
-.headshot-image {
-  width: 150px; /* Adjust the width as needed */
-  height: auto; /* Maintains the aspect ratio */
-  border-radius: 50%; /* Makes the image circular if desired */
-  margin-top: 20px; /* Adds some spacing above the image */
+/* --------------------------------- */
+/* ----- headshort -----*/
+/* --------------------------------- */
+
+
+/* Header styling */
+.header {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Makes the header cover the full viewport height */
 }
+
+.header-content {
+  display: flex;
+  flex: 1;
+}
+
+.header-textbox {
+  flex: 1;
+  padding: 50px; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-imagebox {
+  flex: 1;
+  overflow: hidden;
+}
+
+.headshot-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+/* Optional: Adjust text alignment */
+.header-textbox h1,
+.header-textbox p,
+.header-textbox .header-btns {
+  max-width: 600px; /* Limit the width for better readability */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+  }
+  .header-imagebox {
+    height: 300px; /* Adjust as needed for mobile */
+  }
+  .headshot-image {
+    height: 100%;
+  }
+}
+
+
 
 
 /* --------------------------------- */
