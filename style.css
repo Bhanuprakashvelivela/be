@@ -120,6 +120,14 @@ textarea {
   resize: none;
 }
 
+.headshot-image {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 50%; /* Makes the image circular if desired */
+  margin-top: 20px; /* Adds some spacing above the image */
+}
+
+
 /* --------------------------------- */
 /* ----- Typography -----*/
 /* --------------------------------- */
