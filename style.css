@@ -502,8 +502,6 @@ body.light .header {
 
 .header-image {
   float: right;
-  position: absolute;
-  top: 50%;
 }
 
 .header-text {
