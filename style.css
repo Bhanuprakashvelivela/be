@@ -500,6 +500,10 @@ body.light .header {
   display: block;
 }
 
+.header-image {
+  float: right;
+}
+
 .header-text {
   font-size: var(--text-large);
   font-weight: 400;
