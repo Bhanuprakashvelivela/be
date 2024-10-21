@@ -501,7 +501,7 @@ body.light .header {
 }
 
 .header-image {
-  position: fixed;
+  /* position: fixed; */
   top: 30%;
   float: right;
   right: 10%;
