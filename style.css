@@ -504,7 +504,7 @@ body.light .header {
   position: absolute;
   /* position: fixed; */
   /* top: 20%; */
-  /* float: right; */
+  float: right;
   /* right: 10%; */
   width: 300px;
 }
