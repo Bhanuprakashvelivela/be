@@ -502,10 +502,10 @@ body.light .header {
 
 .header-image {
   /* position: fixed; */
-  top: 30%;
+  /* top: 20%; */
   float: right;
   /* right: 10%; */
-  width: 400px;
+  width: 300px;
 }
 
 .header-text {
